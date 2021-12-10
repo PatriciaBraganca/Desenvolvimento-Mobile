@@ -12,11 +12,12 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
+
 export default function App() {
   return (
-    
+    //  atualizando
     <NavigationContainer>
-     
+    
   
   <Tab.Navigator initialRouteName="Home" screenOptions={({ route }) => ({
           tabBarIcon: ({ focused, color, size }) => {
